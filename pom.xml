@@ -11,6 +11,7 @@
     <properties>
         <jvm.version>1.8</jvm.version>
         <mysql.version>5.1.46</mysql.version>
+        <hibernate.vesion>5.3.5.Final</hibernate.vesion>
     </properties>
 <!-- wow a useless comment! -->
     <build>
@@ -32,6 +33,11 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.vesion}</version>
         </dependency>
     </dependencies>
 </project>
